@@ -8,6 +8,6 @@ namespace csharp_abstract_animals
 {
     internal interface ICanSwim
     {
-        public void ICanSwim() => Console.WriteLine("So nuotare *faccina soddisfatta*");
+        public void ICanSwim() => Console.WriteLine("Abilità: So nuotare *faccina soddisfatta*");
     }
 }

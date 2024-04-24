@@ -12,10 +12,12 @@
             animals.Add(new Mosquito());
             foreach (var animal in animals)
             {
+                Console.WriteLine(animal.GetType().Name);
                 animal.Towards();
             }
             foreach (var animal in animals)
             {
+                Console.WriteLine(animal.GetType().Name);
                 animal.Eat();
             }
 
@@ -26,6 +28,7 @@
             
             foreach (var flyer in flyers)
             {
+                Console.WriteLine(flyer.GetType().Name);
                 flyer.ICanFly();
             }
 
@@ -35,6 +38,7 @@
 
             foreach (var swimmer in swimmers)
             {
+                Console.WriteLine(swimmer.GetType().Name);
                 swimmer.ICanSwim();
             }
 

@@ -8,6 +8,6 @@ namespace csharp_abstract_animals
 {
     internal interface ICanFly
     {
-        public void ICanFly() => Console.WriteLine("*battiti di ali* vola *battiti di ali* poi si posa");
+        public void ICanFly() => Console.WriteLine("Abilità: *battiti di ali* vola *battiti di ali* poi si posa");
     }
 }
