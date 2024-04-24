@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+
             /*
              **Esercizio 1 : classi astratte**
                 Dobbiamo realizzare un programma che rappresenti il regno animale.
